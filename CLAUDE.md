@@ -1,20 +1,10 @@
 # wst03 Remote + Direct Commit
 
-Remote repo'su olan, main branch'e dogrudan commit+push yapan arketip.
-
 ## Active Task
-`math_utils.py` olustur (bkz. COMMON_TASK.md). Python ile calistir. Sonra:
-- `git add math_utils.py`
-- `git commit -m "add modulo_sum(a, b, m)"`
-- `git push origin main`
+`math_utils.py` olustur. Icine `modulo_sum(a, b, m)` fonksiyonu ekle.
+**MUTLAKA** ayni dosyaya 3 assert test yaz: modulo_sum(3,4,5)==2, modulo_sum(0,0,1)==0, modulo_sum(10,15,7)==4.
+Sonra git add/commit/push origin main.
 
-## Closure Protocol
-- Dosya + python run
-- Local commit + remote push main basarili olmali
-- Commit hash remote'ta gorunmeli
-- `GOREV TAMAMLANDI`
-
-## Rules
-- Kisa cevap
-- Main branch'e push, PR acma
+## Closure
+- Testler yoksa gorev tamamlanmis sayilmaz
 - `GOREV TAMAMLANDI`
