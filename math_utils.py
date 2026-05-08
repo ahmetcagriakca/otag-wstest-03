@@ -1,2 +1,1 @@
-def modulo_sum(a, b, m):
-    return (a + b) % m
+def modulo_sum(a, b, m): return (a+b)%m
